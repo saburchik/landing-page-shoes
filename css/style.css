@@ -477,7 +477,6 @@ a.box.text-center {
 }
 
 .p-large {
-    color: #333;
     font: 400 1rem/1.5rem;
     font-family: 'Oswald', sans-serif;
 }
@@ -532,24 +531,73 @@ a.box.text-center {
     background: transparent;
 }
 
+.tabs .card-body {
+    margin-bottom: 0.5rem;
+}
 
+.tabs .card-body p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
+.tabs .card .card-icon {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: #00c9db;
+    text-align: center;
+    vertical-align: top;
+}
 
+.tabs .card .card-icon .fa {
+    color: white;
+    font-size: 2rem;
+    line-height: 4.5rem;
+}
 
+.tabs .card.left-pane .text-wrapper {
+    display: inline-block;
+    width: 75%;
+    text-align: right;
+}
 
+.tabs .card.left-pane .card-icon {
+    float: none;
+    margin-left: 1rem;
+    margin-right: 0;
+}
 
+.tabs img {
+    display: block;
+    margin: 0.3rem auto 3rem auto;
+}
 
+.tabs .card.right-pane .text-wrapper {
+    display: inline-block;
+    width: 75%;
+    margin-left: 1rem;
+}
 
+.tabs .card .card-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+}
 
+.tabs .icon-cards-area .card {
+    display: inline-block;
+    width: 44%;
+    margin-right: 2.5rem;
+    vertical-align: top;
+}
 
+.tabs .card.left-pane .text-wrapper,
+.tabs .card.right-pane .text-wrapper {
+    width: 68%;
+}
 
-
-
-
-
-
-
-
+.basic-2, .basic-3 {
+    color: #333;
+}
 
 
 
