@@ -476,9 +476,80 @@ a.box.text-center {
     text-decoration: none;
 }
 
-.tabs {
+.p-large {
     color: #333;
+    font: 400 1rem/1.5rem;
+    font-family: 'Oswald', sans-serif;
 }
+
+.p-heading {
+    margin-bottom: 3.75rem;
+    text-align: center;
+}
+
+.tabs {
+    padding-top: 6.5rem;
+    padding-bottom: 4.25rem;
+    background-color: #046672;
+
+}
+
+.tabs .nav-tabs {
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    justify-content: center;
+    border-bottom: none;
+}
+
+.tabs .nav-link {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1.375rem 0.25rem 1.375rem;
+    border: none;
+    border-bottom: 0.1875rem solid #f1f1f8;
+    border-radius: 0;
+    color: #f1f1f8;
+    font: 700 1rem/1.75rem;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.tabs .nav-link.active,
+.tabs .nav-link:hover {
+    border-bottom: 0.1875rem solid #00c9db;
+    background-color: transparent;
+    color: #00c9db;
+}
+
+.tabs .nav-link .fa {
+    margin-right: 0.375rem;
+    font-size: 1rem;
+}
+
+.tabs .card {
+    border: none;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
